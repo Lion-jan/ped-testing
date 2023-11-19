@@ -151,6 +151,16 @@ body {
 }
 @media (max-width:468px) {
     .testing{
-        width: 100%;
+        .test-box{
+           p{
+            width: 100% !important;
+
+           }
+
+           h4{
+            width: 100% !important;
+           }
+        }
+        
     }
 }

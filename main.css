@@ -129,7 +129,10 @@ body .testing #next {
 }
 
 @media (max-width: 468px) {
-  .testing {
-    width: 100%;
+  .testing .test-box p {
+    width: 100% !important;
+  }
+  .testing .test-box h4 {
+    width: 100% !important;
   }
 }/*# sourceMappingURL=main.css.map */
