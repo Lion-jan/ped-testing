@@ -137,6 +137,9 @@ body .testing #next {
     background-color: #fff;
     background-color: #48c5ef !important;
   }
+  .testing .test-box p:active {
+    background-color: red;
+  }
   .testing .test-box h4 {
     width: 100% !important;
     font-size: 11px;
