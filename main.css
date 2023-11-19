@@ -131,8 +131,14 @@ body .testing #next {
 @media (max-width: 468px) {
   .testing .test-box p {
     width: 100% !important;
+    font-size: 10px;
+  }
+  .testing .test-box p:hover {
+    background-color: #fff;
+    background-color: #48c5ef !important;
   }
   .testing .test-box h4 {
     width: 100% !important;
+    font-size: 11px;
   }
 }/*# sourceMappingURL=main.css.map */
