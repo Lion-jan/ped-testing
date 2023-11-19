@@ -126,4 +126,10 @@ body .testing #next {
 .result {
   font-size: 20px;
   font-weight: 500;
+}
+
+@media (max-width: 468px) {
+  .testing {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
