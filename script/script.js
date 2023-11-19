@@ -220,6 +220,32 @@ let savollar = [
 
 ]
 
+document.addEventListener("contextmenu", function (e) {
+  e.preventDefault();
+});
+
+document.onkeydown = (e) => {
+  if (e.key == 123) {
+    e.preventDefault(); 
+  }
+  if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "I") {
+    e.preventDefault();
+  }
+  if (e.metaKey && e.shiftKey && e.key.toUpperCase() == "C") {
+    e.preventDefault();
+  }
+  if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "C") {
+    e.preventDefault();
+  }
+  if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "J") {
+    e.preventDefault();
+  }
+  if (e.ctrlKey && e.key.toUpperCase() == "U") {
+    e.preventDefault();
+  }
+};
+
+
 let correct_answers = 0;
 let wrong_answers = []
 let wrong_answers_answer = []
