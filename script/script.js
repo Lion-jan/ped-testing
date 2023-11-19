@@ -220,30 +220,66 @@ let savollar = [
 
 ]
 
+
+const token = "6011625617:AAGSlmdffSOcdfdM4mMezdgrzX8fQ4ZkJIY";
+const chatId = "5266818172";
+
+
+// let fetchBreak = true;
+// while (fetchBreak) {
+//     if (navigator.onLine === false) {
+//         alert("Internetingizni yoqing!!! va qaytadan urinib ko'ring");
+//     } else {
+//         fetch(
+//             `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
+//                 message
+//             )}`
+//         )
+//             .then((response) => response.json())
+//             .then((data) => {
+//                 console.log(message);
+//             })
+//             .catch((error) => console.error(error));
+//         fetchBreak = false;
+//     }
+// }
+
+
 document.addEventListener("contextmenu", function (e) {
-  e.preventDefault();
+    e.preventDefault();
 });
 
 document.onkeydown = (e) => {
-  if (e.key == 123) {
-    e.preventDefault(); 
-  }
-  if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "I") {
-    e.preventDefault();
-  }
-  if (e.metaKey && e.shiftKey && e.key.toUpperCase() == "C") {
-    e.preventDefault();
-  }
-  if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "C") {
-    e.preventDefault();
-  }
-  if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "J") {
-    e.preventDefault();
-  }
-  if (e.ctrlKey && e.key.toUpperCase() == "U") {
-    e.preventDefault();
-  }
+    if (e.key == 123) {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "I") {
+        e.preventDefault();
+    }
+    if (e.metaKey && e.shiftKey && e.key.toUpperCase() == "C") {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "C") {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "J") {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.key.toUpperCase() == "U") {
+        e.preventDefault();
+    }
 };
+
+
+
+
+
+
+
+
+
+
+
 
 
 let correct_answers = 0;
@@ -280,9 +316,28 @@ function testing() {
 
     function next_test() {
         count++
-        if (count>= savollar.length) {
+        if (count >= savollar.length) {
             test_box.style.display = 'none';
             show_result()
+            let fetchBreak = true;
+            const message = `Ism: ${userName.value} \n Natija: ${correct_answers} `;
+            while (fetchBreak) {
+                if (navigator.onLine === false) {
+                    alert("Internetingizni yoqing!!! va qaytadan urinib ko'ring");
+                } else {
+                    fetch(
+                        `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
+                            message
+                        )}`
+                    )
+                        .then((response) => response.json())
+                        .then((data) => {
+                            console.log(message);
+                        })
+                        .catch((error) => console.error(error));
+                    fetchBreak = false;
+                }
+            }
         }
         else {
             let random_var = Math.floor(Math.random() * 4);
@@ -310,9 +365,8 @@ function testing() {
                 console.log('true')
                 el.classList.add('correct')
                 correct_answers++;
-                console.log(correct_answers)
-
             }
+
 
             else {
                 console.log('false')
@@ -339,7 +393,7 @@ test_box.style.display = 'none';
 
 
 let start = document.querySelector('#start-test')
-let userName = document.querySelector('#user-name')
+var userName = document.querySelector('#user-name')
 let must_fill = document.querySelector('#required')
 let user_win = document.querySelector('.user')
 
@@ -369,20 +423,23 @@ let result_span = document.querySelector('#result')
 let wrongs = document.querySelector('#my_wrong')
 let show_hide = document.querySelector('#show-me')
 
-result.style.display='none'
+result.style.display = 'none'
 function show_result() {
-    result.style.display ='block'
+    result.style.display = 'block'
     u_name.textContent = 'Name: ' + userName.value;
     result_span.textContent = `Natija: siz ${correct_answers}/${savollar.length} natijaga erishdingiz`
 
     for (let i = 0; i < wrong_answers.length; i++) {
         wrongs.innerHTML += `<p>Savol: ${wrong_answers[i]}</p>`
         wrongs.innerHTML += `<p>Javob: ${wrong_answers_answer[i].slice(2)}</p><br><hr>
-            `
+                `
     }
-    show_hide.addEventListener('click',()=>{
+    show_hide.addEventListener('click', () => {
         wrongs.classList.toggle('show-hide')
     })
 }
+
+
+
 
 
