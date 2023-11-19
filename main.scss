@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #dcd4d4;
+    .testing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        .test-box {
+            
+            background-color: #fff;
+            padding: 20px;
+            padding-top: 5px;
+            height: 655px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+           margin-top: 100px;
+           border-radius: 20px;
+            #question {
+                width: 500px;
+                background-color: #7fb8fd;
+                // border: 1px solid red;l
+                padding: 15px;
+                height: 130px;
+                border-radius: 15px;
+                box-shadow: 3px 3px 3px 3px  rgb(196, 191, 191);
+
+                
+
+            }
+
+            p {
+                width: 500px;
+                background-color: #48c5ef;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding-left: 20px;
+                padding-right: 10px;
+                border: none;
+                border-radius: 20px;
+                box-shadow: 3px 3px 3px 3px  rgb(196, 191, 191);
+            }
+
+            p:hover{
+                background-color: rgb(201, 228, 101);
+                transition: all 0.2s;
+            }
+
+            
+        }
+
+        #next {
+            padding: 10px 15px;
+            border-radius: 10px;
+            background-color: rgb(100, 100, 247);
+            margin-top: 50px;
+            border: none;
+        }
+
+
+    }
+}
+
+.correct{
+    background-color: rgb(10, 236, 10) !important;
+    transition: all smooth;
+}
+
+.wrong{
+    background-color: rgb(243, 94, 94) !important;
+    transition: all smooth;
+}
+
+.user {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px ;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(76, 75, 75);
+    height: 300px;
+    
+    input{
+        border: none;
+        outline:none;
+        font-weight: 600;
+        width: 300px;
+        padding: 20px 20px;
+        font-size: 18px;
+        border-radius:  15px;
+        background-color: black;
+        color: #fff;
+        
+        
+    }
+
+    button{
+        border: none;
+        background-color: #fff;
+        border-radius: 15px;
+        padding: right 20px;
+        font-size: 15px;
+        padding: 20px ;
+        box-shadow: 2px 2px rgb(77, 76, 76);
+        clip: pointer;
+        background-color: rgb(14, 218, 14);
+
+    }
+
+    #required {
+        color: red;
+    }
+}
+
+.result{
+    width: 400px;
+    padding: 10px 15px ;
+    background-color: #fff;
+    overflow-y: scroll;
+    height: 600px;
+    margin-top: 100px;
+
+
+}
+
+.show-hide{
+    display: none;
+}
+
+#show-me{
+    border: none;
+    padding: 15px 40px;
+    letter-spacing: 0.5px;
+    margin-left: 40px;
+    
+}
+
+.result{
+    font-size: 20px;
+    font-weight: 500;
+}
