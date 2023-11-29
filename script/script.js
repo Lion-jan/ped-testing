@@ -225,25 +225,6 @@ const token = "6011625617:AAGSlmdffSOcdfdM4mMezdgrzX8fQ4ZkJIY";
 const chatId = "5266818172";
 
 
-// let fetchBreak = true;
-// while (fetchBreak) {
-//     if (navigator.onLine === false) {
-//         alert("Internetingizni yoqing!!! va qaytadan urinib ko'ring");
-//     } else {
-//         fetch(
-//             `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
-//                 message
-//             )}`
-//         )
-//             .then((response) => response.json())
-//             .then((data) => {
-//                 console.log(message);
-//             })
-//             .catch((error) => console.error(error));
-//         fetchBreak = false;
-//     }
-// }
-
 
 document.addEventListener("contextmenu", function (e) {
     e.preventDefault();
@@ -412,10 +393,6 @@ start.addEventListener('click', () => {
 })
 
 
-// user_win.style.display= 'none'
-
-
-//  bu joydan boshlab result qismining kodlari yozilgan
 
 let result = document.querySelector('.result')
 let u_name = document.querySelector('#name')
