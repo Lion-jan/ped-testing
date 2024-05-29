@@ -386,7 +386,7 @@ function testing() {
             // console.log(el.textContent.slice(3))
             // console.log(newMassiv[count].javob)
 
-            setTimeout(next_test, 300)
+            setTimeout(next_test, 1000)
         })
     })
 
