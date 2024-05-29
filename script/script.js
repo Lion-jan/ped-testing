@@ -226,12 +226,12 @@ let savollar = [
     },
 
     {
-        savol: '...........................................biosferaning yuqori darajasi, ammo sifat jihatidan boshqa bo‘lib, bunda tabiat ham, inson ham mutlaq yangilangan holda bo‘ladi.',
-        variantlar: ['noosfera',
-            'Atmosfera',
-            'litosfera',
-            'Ionosfera'],
-        javob: 'noosfera'
+        savol: 'Barcha uchun havfsiz suv zaxiralari va sanitariya vositalaridan foydalanish imkoniyatini taminlash. Barqaror rivojlanish maqsadlarining nechanchi maqsadining mohiyati',
+        variantlar: ['5-chi',
+            '6-chi',
+            '7-chi',
+            '8-chi'],
+        javob: '6-chi'
     },
 
     {
@@ -241,6 +241,140 @@ let savollar = [
             '1890-yilda',
             '1883-yilda'],
         javob: '1887-yilda'
+    },
+
+    {
+        savol: "Qishloq xo'jaligidagi dala, bog' va tokzorlar, o'tloqlardagi, yo'l yoqalaridagi begona o'tlarga qarshi qo'llaniladigan kimyoviy moddalar qanday nomlanadi",
+        variantlar: ['pesditsid',
+            'gerbitsid',
+            "zaharli o'g'itlar",
+            'deptidsid'],
+        javob: 'gerbitsid'
+    },
+
+    {
+        savol: "Jaxon yetakchilari qashshoqlikka barham berish, tengsizlikni tugatish va iqlim o'zgarishiga qarshi kurashishga yo'naltirilgan, 2030-yilgacha bo'lgan davrda barqaror rivojlanish sohasidagi Kun tartibini tasdiqladilar. Barqaror rivojlanish maqsadlari - bu dunyoni o'zgartirishga yo'naltirilgan maqsaddir. Ular nechta",
+        variantlar: ['17 ta',
+            '15 ta',
+            "18 ta",
+            '14 ta'],
+        javob: '17 ta'
+    },
+
+    {
+        savol: "Atmosferaning ifloslanishi deb, atmosfera havosi tarkibidagi yot modda va qo'shimchalarning me'yordan ortiq to'planishi hisobiga uning tarkibi va hususiyatlaridagi barcha turdagi o'zgarishlari tushuniladi. U necha xil bo'ladi",
+        variantlar: ['3 xil',
+            '2 xil',
+            "4 xil",
+            '5 xil'],
+        javob: '2 xil'
+    },
+
+
+    {
+        savol: "Toshkent viloyatining Bo'stonliq tumanidagi Piskom daryosi mamlakat bo'yicha o'rganilgan suv oqimlarining eng katta salohiyatiga ega. Bu O'zbekistondagi mavjud gidroenergetika resurslarining qancha qismini ishlab chiqaradi",
+        variantlar: ['44%',
+            '45.3%',
+            "45.6%",
+            '50% '],
+        javob: '45.3%'
+    },
+
+
+    {
+        savol: "Neftni qayta ishlash zavodi birinchi marta qachon va qayerda qurilgan?",
+        variantlar: ['1837-yil, Boku shahrida',
+            '1839-yil, Berlin shahrida',
+            "1837-yil, Moskva shahrida",
+            '1838-yil, Boku shahrida'],
+        javob: '1837-yil, Boku shahrida'
+    },
+
+
+    {
+        savol: "O'zbekiston Respublikasining birinchi qizil kitobi nechanchi yilda nashr ettirilgan?",
+        variantlar: ['1990-yilda',
+            '1983-yilda',
+            "1993-yildA",
+            '1985-yilda'],
+        javob: '1983-yilda'
+    },
+
+
+    {
+        savol: "O'zbekiston Respublikasining  qizil kitobining so'nggi nashriga qancha o'simlik va hayvon turlari kiritilgan?",
+        variantlar: ['310 ta osimlik va 206 ta hayvon turlari',
+            'gerbitsid',
+            "310 ta osimlik va 206 ta hayvon turlari",
+            '310 ta osimlik va 210 ta hayvon turlari'],
+        javob: '313 ta osimlik va 206 ta hayvon turlari'
+    },
+
+    {
+        savol: "O'zbekiston Respublika Atmosfera havosini muhofaza qilish to'g'risidagi qonuni qachon qabul qilingan va necha moddadan iborat?",
+        variantlar: ['1996-yil 27-dekabrda 29 ta moddadan',
+            '1997-yil 13-may 29 ta moddadan',
+            "1998-yil 27-dekabrda 30 ta moddadan",
+            '1996-yil 21-mayda 29 ta moddadan'],
+        javob: '1996-yil 27-dekabrda 29 ta moddadan'
+    },
+
+    {
+        savol: "Dunyoda 795 mln. ga yaqin kishi to'yib ovqat yemaydi. 5 yoshgacha bo'lgan bolalar orasidagi o'lim holatining deyarli yarmi to'yib ovqat yemaslik natijasida ro'y beradi . Ushbu muammoni hal qilish yo'llari barqaror rivojlanish maqsadlarining nehchanchi maqsadida belgilangan?",
+        variantlar: ['2-chi',
+            '7-chi',
+            "10-chi",
+            '3-chi'],
+        javob: '2-chi'
+    },
+
+
+    {
+        savol: "Birinchi shamol stansiyasi Buyuk Britaniyada Professor Jeyms bit tomonida nechanchi yilda qurilgan?",
+        variantlar: ['1887-yilda',
+            '1885-yilda',
+            "1889-yilda",
+            '1897-yilda'],
+        javob: '1887-yilda'
+    },
+
+    {
+        savol: "Suv shamol va antropogen omillar tuproqqa salbiy ta'sir etishi natijasida uning ustki unumdor qatlamining yuvilib va uchib ketishiga eroziya deyiladi. Eroziya jarayonlari kelib chiqishiga ko'ra qanday turlarga ajraladi?",
+        variantlar: ['normal,tezlashgan,antropogen',
+            'normal,tezlashgan,antropogen,muvozanatli',
+            "normal,tezlashgan,antropogen,kuchli",
+            'normal,antropogen'],
+        javob: 'normal,tezlashgan,antropogen'
+    },
+
+
+
+    
+    {
+        savol: "Chernobel AES halokati nechanchi yilda sodir bo'lgan?",
+        variantlar: ['1986-yilda',
+            '1987-yilda',
+            "1988-yilda",
+            '1990-yilda'],
+        javob: '1986-yilda'
+    },
+
+    {
+        savol: "Shamol ta'sirida mayda tuproq bo'lakchalari uchib ketadi va tuproqda qum miqdori oshadi, tuproqda gumus miqdori kamayadi va agroximik , suvning fizik xossalari yomonlashishi qanday nomlanadi",
+        variantlar: ['deflatsiya',
+            'gerbitsid',
+            "suspensiya",
+            'eroziya'],
+        javob: 'deflatsiya'
+    },
+
+    {
+        savol: "O'zbekistonda mavjud sug'oriladigan yerlarning qancha qismi u yoki bu darajada sho'rlangan?",
+        variantlar: ["50% dan ortig'i",
+        "60% i",
+            "50% i",
+            "40% dan ortig'i"],
+        javob: "50% dan ortig'i"
     },
 
 ]
@@ -308,7 +442,7 @@ function testing() {
     for (let i = 0; i <= savollar.length; i++) {
         let element = savollar.at(randomSon - i);
         newMassiv.push(element)
-    }
+    }sosan kompyuterlar uchun)
 
 
 
