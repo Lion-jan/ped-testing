@@ -436,30 +436,30 @@ let savollar = [
     },
 
     {
-        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
-        variantlar: ["Toshkent viloyati",
-            "Samarqand viloyati",
-            "Surxondaryo viloyati",
-            "Namangan viloyati"],
-        javob: "Toshkent viloyati"
+        savol: "Janubiy qizilqumdagi noyob landshaft va ekotizimlar, jayron, o'rta osiyo  toshbaqasi , yo'rg'ga tuvaloq, kovul kabi noyob turlarini , saksovulzorlar hamda kovrakning tabiiy populyatsiyasini muhofaza qilish uchun tashkil etilgan muhofaza etiladigan tabiy hudud qanday nomlanadi?",
+        variantlar: ["Oqtov-Tomdi  buyurtma qo'riqxonasi",
+            "Chotqol qo'riqxonasi",
+            "Zomin qo'riqxonasi",
+            "Sangardak tabiat turizm markazi"],
+        javob: "Oqtov-Tomdi  buyurtma qo'riqxonasi"
     },
 
     {
-        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
-        variantlar: ["Toshkent viloyati",
-            "Samarqand viloyati",
-            "Surxondaryo viloyati",
-            "Namangan viloyati"],
-        javob: "Toshkent viloyati"
+        savol: "Organizmlarning kun va tun uzunligini sezishi, qabul qilishi va ularning o'zgarishi qanday aytiladi?",
+        variantlar: ["adaptatsiya",
+            "fotoperiodizm",
+            "fotoretseptizm",
+            "gravitatsiya"],
+        javob: "fotoperiodizm"
     },
 
     {
-        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
-        variantlar: ["Toshkent viloyati",
-            "Samarqand viloyati",
-            "Surxondaryo viloyati",
-            "Namangan viloyati"],
-        javob: "Toshkent viloyati"
+        savol: "Shamol generatori minimal shamolni sekundiga qancha metrdan yuqori bo'lsa ishlaydi?",
+        variantlar: ["3-4 metr",
+            "8-10 metr",
+            "6-8 metr",
+            "5-6 metr"],
+        javob: "3-4 metr"
     },
 
     {
