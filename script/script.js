@@ -361,11 +361,11 @@ let savollar = [
 
     {
         savol: "Shamol ta'sirida mayda tuproq bo'lakchalari uchib ketadi va tuproqda qum miqdori oshadi, tuproqda gumus miqdori kamayadi va agroximik , suvning fizik xossalari yomonlashishi qanday nomlanadi",
-        variantlar: ['deflatsiya',
-            'gerbitsid',
+        variantlar: ["deflatsiya",
+            "gerbitsid",
             "suspensiya",
-            'eroziya'],
-        javob: 'deflatsiya'
+            "eroziya"],
+        javob: "deflatsiya"
     },
 
     {
@@ -376,6 +376,49 @@ let savollar = [
             "40% dan ortig'i"],
         javob: "50% dan ortig'i"
     },
+
+
+    {
+        savol: "Insonlarda Tabiat haqdagi bilim, ong, idrok, savodxonlik, uning intelektual salohiyati va uni amalda qo'llay bilish faoliyati, atrof muhitga nisbatan faolilyatning yuksak ko'rsatgichi, ongli va ma'suliyatli yondoshuvi ........... deb ataladi",
+        variantlar: ["ekologik madaniyat",
+            "ekologik bilim",
+            "ekologik taraqqiyot",
+            "ekologik ong"],
+        javob: "ekologik madaniyat"
+    },
+
+
+    {
+        savol: "Saudiya Arabistonining qaysi kompaniyasi mamlakatimizda shamol elektr stansiyalarini barpo qilishga  sarmoya kiritmoqda",
+        variantlar: ["ACWA Power",
+            "DINAMO Power",
+            "Dinamik",
+            "Sheyx consulting"],
+        javob: "ACWA Power"
+    },
+
+
+    {
+        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
+        variantlar: ["Toshkent viloyati",
+            "Samarqand viloyati",
+            "Surxondaryo viloyati",
+            "Namangan viloyati"],
+        javob: "Toshkent viloyati"
+    },
+
+
+    {
+        savol: "Butunjahon cho'llanish va qurg'oqchilikka qarshi kurashish kuni BMT Bosh assambleyasi tomonidan  qachon ta'sis etilgan ",
+        variantlar: ["1994-yilda",
+            "1998-yilda",
+            "1993-yilda",
+            "1996-yilda"],
+        javob: "1994-yilda"
+    },
+
+
+   
 
 ]
 
@@ -442,7 +485,7 @@ function testing() {
     for (let i = 0; i <= savollar.length; i++) {
         let element = savollar.at(randomSon - i);
         newMassiv.push(element)
-    }sosan kompyuterlar uchun)
+    }
 
 
 
