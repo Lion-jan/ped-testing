@@ -1,227 +1,225 @@
 let savollar = [
     {
-        savol: 'O‘zbekiston respublikasining “ta’lim to‘g‘risida”gi qonuniga muvofiq kimlar pedagogik faoliyat bilan shug‘ullanish huquqiga egalar?',
-        variantlar: ["..tegishli ma’lumoti, kasbiy tayyorgarligi bor va yuksak axloqiy fazilatlarga ega bo‘lgan shaxslar",
-            "kasbiy bilim, ko‘nikma va malaka, shuningdek, ta’lim muassasalarida ishlash tajribasiga ea shaxslar",
-            "oliy pedagogik ma’lumot hamda 5 yillik pedagogik stajga ega shaxslar",
-            "faoliyat jarayonida ta’lim oluvchilarning yosh va psixologik xususiyatlarini inobatga olgan holda ular bilan muloqot qilish malakasini o‘zlashtirgan shaxslar"],
-        javob: '..tegishli ma’lumoti, kasbiy tayyorgarligi bor va yuksak axloqiy fazilatlarga ega bo‘lgan shaxslar'
+        savol: "Tabiatdagi turli tirik organizmlarning suvga nisbatan ehtiyoji turlicha bo'ladi chunki ular turli namlik sharoitida yashashga moslashganlar. Bu jihatdan organizmlarning guruhi qanday nomlanadi",
+        variantlar: ["suvli hayvonlar",
+            "biofillar",
+            "gidrofillar",
+            "baliqlar"],
+        javob: "gidrofillar"
     },
 
     {
-        savol: 'ta’lim muassasasi nima?',
-        variantlar: ["..qonun hujjatlariga muvofiq ishlab chiqilgan ustav asosida faoliyat ko‘rsatadigan yuridik shaxs",
-            'pulli ta’lim xizmatlarini ko‘rsatish orqali moliyaviy imkoniyatlarini kengaytirish huquqiga ega yuridik shaxs',
-            ' rivojlangan xorijiy mamlamatlarning ta’lim muassasalari bilan hamkorlikni yo‘lga qo‘yish huquqiga ega yuridik shaxs',
-            ' ta’lim sohasidagi islohotlarni tashkil etishga mas’ul yuridik shaxs'],
-        javob: '..qonun hujjatlariga muvofiq ishlab chiqilgan ustav asosida faoliyat ko‘rsatadigan yuridik shaxs'
+        savol: "tirik organizmlarning hayotiga va geografik tarqalishiga ta'sir etuvchi (ijobiy va salbiy) shart sharoitlar nima deb ataladi",
+        variantlar: ["ekologik omil",
+            "biogenetik omil",
+            "sotsiogenetik omil",
+            "biotik omil"],
+        javob: 'ekologik omil'
     },
 
     {
-        savol: 'mashg’ulotlarga qo’yiladigan maqsadlar?',
-        variantlar: ['..ta’limiy, tarbiyaviy, rivojlantiruvchi',
-            ' tarbiyaviy, didaktik, ijtimoiy-g‘oyaviy',
-            'tarbiyaviy, didaktik, muloqot',
+        savol: " Tirik organizmlar tomonidan yaratiladigan va o‘zlashtiriladigan toshko‘mir, bitum, neft va ohaktosh kabi moddalar qanday nomlanadi?",
+        variantlar: ["biologik moddalar",
+            'biogen moddalar',
+            "resurs moddalar",
             ' ijtimoiy-g‘oyaviy, aksiologik, didaktik'],
-        javob: '..ta’limiy, tarbiyaviy, rivojlantiruvchi'
+        javob: 'biogen moddalar'
     },
 
     {
-        savol: 'ta’lim to’g’risidagi qonun” qachon qabul qilingan?',
-        variantlar: ['..1997 yil, 29 avgust',
-            '1997 yil, 29 iyul',
-            '1992 yil, 12 avgust',
-            '1993 yil, 11 avgust'],
-        javob: '..1997 yil, 29 avgust'
+        savol: " Bir organizm hayot faoliyatining boshqalariga ta ’siri va ulami o‘rab turgan muhiti ........................ omillar deyiladi.",
+        variantlar: ['odam',
+            'jonzot',
+            'biogen',
+            'biotik'],
+        javob: 'biotik'
     },
 
     {
-        savol: 'kadrlar tayyorlash milliy modelining tarkibiy qismlari qaysi variantda berilgan?',
-        variantlar: ['..shaxs, uzluksiz ta’lim, davlat va jamiyat, fan, ishlab chiqarish', ' ta’lim xizmatlarini ko‘rsatuvchilar, ishlab chiqarish',
-            ' ta’lim xizmatlarining iste’molchilari, ishlab chiqarish',
-            'ta’lim jarayonining ishtirokchilari, ishlab chiqarish'],
-        javob: '..shaxs, uzluksiz ta’lim, davlat va jamiyat, fan, ishlab chiqarish'
+        savol: 'Suv muhitida gidrobiontlarning suvni qarshiligini kesib yurishga mos tana tuzilishi, plankton organizmlarning suvda osilgan holda yashashi, o‘simliklar dunyosida cho‘l sharoitida minimum suv sarflashga moslashish sifatida barglarning reduktsiyalanishi yoki butunlay bo‘lmasligi moslanishning qaysi turiga misol bo‘ladi?',
+        variantlar: ['morfologik', 
+            'gidrolog',
+            'arxeolog',
+            'kosmetolog'],
+        javob: 'morfologik'
     },
 
     {
-        savol: 'davlat ta’lim standartlari nima?',
-        variantlar: ['..umumiy o‘rta, o‘rta maxsus, kasb-hunar va oliy ta’lim mazmuniga hamda sifatiga qo‘yiladigan talablarni belgilaydigan me’yoriy hujjat',
-            ' o‘quv yuklamlari hajmini aniqlashga xizmat qiladigan, shakl va metodlari to‘g‘risida mezonlar yig‘indisi',
-            ' ta’lim jarayonining samarali tashkil etish yo‘llari, shakl va metodlari to‘g‘risida ma’lumotlardan iborat yo‘riqnoma', 'o‘quv jadvalining tarkibiy elementlarini aks ettiruvchi manba, shakl va metodlari to‘g‘risida'],
-        javob: '..umumiy o‘rta, o‘rta maxsus, kasb-hunar va oliy ta’lim mazmuniga hamda sifatiga qo‘yiladigan talablarni belgilaydigan me’yoriy hujjat'
+        savol: ' Organizmga tashqi muhit ta’siri muhimligini, ayrim kasalliklar suv va havo orqali tarqalishi haqida fikrlar bayon qilgan alloma kim?',
+        variantlar: ['Abu Ali Ibn Sino',
+            'Abu Rayhon Beruniy',
+            "Mirzo Ulug'bek",
+             'Alisher Navoiy'],
+        javob: 'Abu Ali Ibn Sino'
     },
 
     {
-        savol: ' DTS qanday ta’lim turlari uchun joriy etiladi? ',
-        variantlar: ['..umumiy o‘rta ta’lim, oliy ta’lim',
-            'umumiy o‘rta, maktabdan tashqari ta’lim, oliy ta’lim',
-            'maktabgacha, umumiy o‘rta, o‘rta maxsus, kasb-xunar',
-            ' bolalar bog‘chasi, umumiy o‘rta ta’lim, o‘rta maxsus'],
-        javob: '..umumiy o‘rta ta’lim, oliy ta’lim'
+        savol: 'Ekologiya fanining asoschisi kim?',
+        variantlar: ['E.Gekkel',
+            'Arximed',
+            'Ch.Darvin',
+            'J.Laura'],
+        javob: 'E.Gekkel'
     },
 
     {
-        savol: 'pedagogika” tushunchasi qanday ma’noni anglatadi?',
-        variantlar: ['..bola yetaklayman',
-            'shaxsni tarbiyalayman',
-            'shaxsni rivojlantiraman',
-            'bolani voyaga etkazaman'],
-        javob: '..bola yetaklayman'
-    },
-
-    {
-        savol: 'pedagogika bola tarbiyasining fani demakdir”. Ta’rif kim tomonidan berilgan?',
-        variantlar: ['..Abdulla Avloniy',
-            ' H.H.Aiyoziy',
-            'Abduqodir Shakuriy',
-            'Is`hoqxon Ibrat'],
-        javob: '..Abdulla Avloniy'
-    },
-
-    {
-        savol: ' pedagogika fani konsepsiyasida nimalar aks etadi?',
-        variantlar: ['..fanning rivojlanish istiqbollari',
-            'fanning umumiy mazmuni',
-            'fan erishgan yutuqlar',
-            'fanning yangi yo‘nalishlari'],
-        javob: '..fanning rivojlanish istiqbollari'
-    },
-
-    {
-        savol: ' pedagogika fanining muhim tarkibiy qismlari qaysi javobda to‘g‘ri ko‘rsatilgan?',
-        variantlar: ['..didaktika (ta’lim nazariyasi), tarbiya nazariyasi',
-            ' ta’lim menejmenti, didaktika (ta’lim nazariyasi)',
-            'didaktika (ta’lim nazariyasi), maktabshunoslik',
-            'tarbiya nazariyasi, ta’lim menejmenti'],
-        javob: '..didaktika (ta’lim nazariyasi), tarbiya nazariyasi'
-    },
-
-    {
-        savol: ' pedagogika fanlari tizimi qanday fanlardan tarkib topgan?',
-        variantlar: ['..maktabgacha ta’lim pedagogikasi”, “boshlang‘ich ta’lim pedagogikasi”, “pedagogika nazariyasi”, “pedagogika tarixi”, “pedagogik mahorat va pedagogik texnologiya”, “ijtimoiy pedagogika”, “kasbiy pedagogika”, “maxsus pedagogika”, “ta’lim menejmenti”, “qiyosiy pedagogika',
-            'ijtimoiy pedagogika”, “kasbiy pedagogika”, “maxsus pedagogika',
-            'pedagogika nazariyasi”, “pedagogika tarixi”, “pedagogik mahorat”, “maxsus pedagogika”, “ta’lim menejmenti”, “qiyosiy pedagogika',
-            'pedagogika nazariyasi”, “pedagogika tarixi”, “pedagogik texnologiya'],
-        javob: '..maktabgacha ta’lim pedagogikasi”, “boshlang‘ich ta’lim pedagogikasi”, “pedagogika nazariyasi”, “pedagogika tarixi”, “pedagogik mahorat va pedagogik texnologiya”, “ijtimoiy pedagogika”, “kasbiy pedagogika”, “maxsus pedagogika”, “ta’lim menejmenti”, “qiyosiy pedagogika'
-    },
-
-    {
-        savol: 'pedagogikaning qaysi sohasi shaxsiy va faoliyatida nuqsonlar ko‘zga tashlanadigan bolalarni o‘qitish va tarbiyalash bilan shug‘ullanadi?',
-        variantlar: ['..maxsus pedagogika', 'kasbiy pedagogika', 'ijtimoiy pedagogika', 'qiyosiy pedagogika'],
-        javob: '..maxsus pedagogika'
-    },
-
-    {
-        savol: 'pedagogikaning asosiy kategoriyalari hisoblanadi?',
-        variantlar: ['..tarbiya, o‘qitish, bilim olish (ma’lumot), rivojlanish',
-            'tarbiya, ta’lim, ma’lumot, shakllantirish',
-            ' ta’lim, ma’lumot, shaxs, muloqot',
-            'ma’lumot, shaxs, ta’lim, rivojlantirish'],
-        javob: '..tarbiya, o‘qitish, bilim olish (ma’lumot), rivojlanish'
-    },
-    {
-        savol: 'ta’limning mazmuni qanday manbalarda aks ettiriladi?',
-        variantlar: ['..ta’limning mazmuni: o’quv rejalarida, dasturlarida va darsliklarda aks ettiriladi',
-            'o’quv rejasida va darsliklarda aks ettiriladi',
-            ' ta’limning mazmuni o’quv materiallarda aks ettiriladi',
-            ' ta’limning mazmuni darsliklarda aks ettiriladi',
+        savol: 'Yer yuzining muayyan hududida yashaydigan o‘simliklar, hayvonlar va mikroorganizmlarning, shu hudud landshafti, iqlim, tuproq hamda gidrologik sharoitlari bilan birligini biogeotsenoz deb nomlagan olim kim?',
+        variantlar: [' V.N.Sukachev',
+            'I.Pavlov',
+            'J.Laura',
+            'L.Edgor'
         ],
-        javob: '..ta’limning mazmuni: o’quv rejalarida, dasturlarida va darsliklarda aks ettiriladi'
-    },
-    {
-        savol: 'pedagogik tajriba tashkil etilish sharoitiga ko‘ra qanday guruhlarga ajratiladi?',
-        variantlar: ['..tabiiy tajriba, laboratoriya tajribasi, tajriba ishi',
-            ' evristik tajriba, ijodiy tajriba, innovatsion tajriba',
-            'individual tajriba, guruh tajribasi, jamoaviy tajriba',
-            ' laboratoriya tajribasi, amaliy tajriba, individual tajriba'],
-        javob: '..tabiiy tajriba, laboratoriya tajribasi, tajriba ishi'
-    },
-    {
-        savol: 'insonning biologik mohiyatini o‘zida aks ettiruvchi tushunchani aniqlang:',
-        variantlar: ['..individ',
-            'sub’ekt',
-            ' shaxs',
-            ' inson'
-        ],
-        javob: '..individ'
-    },
-    {
-        savol: 'individ kim?',
-        variantlar: ['..xatti-harakatlarni shartli reflekslar asosida tashkil etuvchi biologik mavjudot',
-            ' xatti-harakatlarni ongli boshqarish imkoniyatiga ega bo‘lmagan biologik mavjudot',
-            'xatti-harakatlarni shartsiz reflekslar asosida tashkil etuvchi biologik mavjudot',
-            'xatti-harakatlarni ongli ravishda tashkil etuvchi biologik mavjudot'
-        ],
-        javob: '..xatti-harakatlarni shartli reflekslar asosida tashkil etuvchi biologik mavjudot'
-    },
-    {
-        savol: ' shaxs kim?',
-        variantlar: ['..psixologik jihatdan taraqqiy etgan, shaxsiy xususiyatlari va xatti-harakatlari bilan boshqalardan ajralib turuvchi, muayyan xulq-atvor va dunyoqarashga ega bo‘lgan ijtimoiy mavjudot',
-            'xatti-harakatlari bilan boshqalardan ajralib turuvchi, muayyan xulq-atvor va dunyoqarashga ega bo‘lgan ijtimoiy mavjudot',
-            ' shaxsiy xususiyatlari va xatti-harakatlari bilan boshqalardan ajralib turuvchi ijtimoiy mavjudot',
-            'psixologik jihatdan taraqqiy etgan hamda ma’lum darajada ma’naviy-axloqiy sifatlarga ega ijtimoiy mavjudot'],
-        javob: '..psixologik jihatdan taraqqiy etgan, shaxsiy xususiyatlari va xatti-harakatlari bilan boshqalardan ajralib turuvchi, muayyan xulq-atvor va dunyoqarashga ega bo‘lgan ijtimoiy mavjudot'
-    },
-    {
-        savol: 'shaxsga xos bo‘lgan barcha tug‘ma xususiyatlarning boyib borishi, yangi sifatlarning hosil qilinishi, shuningdek, organizmning anatomik tuzilishi, fiziologik va psixologik funksiyalarning takomillashishi, faoliyat hamda xatti-harakatning miqdor va sifat jihatdan o‘zgarib borish jarayoni deganda nima tushuniladi?',
-        variantlar: ['..shaxsning rivojlanishi', 'shaxsning o‘sishi',
-            ' shaxsning shakllanishi', ' shaxsning takomillashuvi'],
-        javob: '..shaxsning rivojlanishi'
-    },
-
-
-    {
-        savol: 'shaxs rivojlanishiga qanday omillar ta’sir ko‘rsatadi?',
-        variantlar: ['..irsiyat, muhit, tarbiya', 'tabiiy muhit, ijtimoiy munosabatlar',
-            'muhit, tarbiya, bilim',
-            ' irsiyat, tabiiy muhit, ijtimoiy munosabatlar'],
-        javob: '..irsiyat, muhit, tarbiya'
-    },
-
-
-    {
-        savol: ' “inson kamolatida uch narsa - irsiyat, muhit, tarbiya muhim rol o‘ynaydi” degan fikrni ilk bor ilgari surgan sharq mutafakkiri kim?',
-        variantlar: ['..Abu Rayhon Beruniy',
-            'Abu Nasr Forobiy',
-            'Abu Ali Ibn Sino',
-            'Yusuf Hos Hojib'
-        ],
-        javob: '..Abu Rayhon Beruniy'
-    },
-
-
-    {
-        savol: ' shaxsning rivojlanishi qanday holatlar bilan belgilanadi?',
-        variantlar: ['..shaxsning fiziologik, ruhiy, intellektual o‘sishini ta’minlovchi faoliyat hamda xatti-harakatlarning miqdor va sifat jihatdan o‘zgarishlar bilan',
-            'shaxsning fiziologik, ruhiy kamolotga erishishida kechadigan miqdor o‘zgarish bilan', ' shaxsning fiziologik, ruhiy kamol topishida kechadigan sifat    ozgarishlar bilan',
-            'shaxs kamolotida muhim o‘rin tutuvchi faoliyat ko‘nikmalarining miqdor va sifat jihatdan takomillashib borishi bilan'],
-
-        javob: '..shaxsning fiziologik, ruhiy, intellektual o‘sishini ta’minlovchi faoliyat hamda xatti-harakatlarning miqdor va sifat jihatdan o‘zgarishlar bilan'
-    },
-
-
-    {
-        savol: 'shaxsga xos individual xususiyatlarni ko‘rsating',
-        variantlar: ['..shaxsning yo‘nalganligi, qiziqishlari, xarakteri, uni boshqalardan ajratib turadigan aqliy kamoloti, faoliyatining o‘ziga xosligini belgilovchi barqaror, muhim xususiyatlar',
-            ' shaxsning yo‘nalganligi, qiziqishlari, xarakteri, uni boshqalardan ajratib turadigan aqliy kamolotini yorituvchi barqaror, muhim xususiyatlar',
-            'shaxsning yo‘nalganligi, qiziqishlari, xarakterini tavsiflovchi barqaror, muhim xususiyatlar',
-            'shaxsning qiziqishlari, xarakteri, aqliy kamoloti, faoliyatining o‘ziga xosligini ifodalovchi barqaror, muhim xususiyatlar'],
-        javob: '..shaxsning yo‘nalganligi, qiziqishlari, xarakteri, uni boshqalardan ajratib turadigan aqliy kamoloti, faoliyatining o‘ziga xosligini belgilovchi barqaror, muhim xususiyatlar'
+        javob: ' V.N.Sukachev'
     },
 
     {
-        savol: '“qobiliyatni tarbiya qilmaslik zulmdir va qobiliyatsizga tarbiya hayf”. Mazkur fikrning muallifi kim?',
-        variantlar: ['..Alisher Navoiy',
-            'Unsurul Maoliy Kaykovus',
-            'Ahmad Yugnakiy',
-            'Saidahmad Siddiqiy'],
-        javob: '..Alisher Navoiy'
+        savol: 'Ekologik omillar yig‘indisi organizmlarning o‘sishi, rivojlanishi, yashab qolishi, organizmlarning ko‘payishiga sabab bo‘ladi, ularning mavjudlik sharoitini tavsiflaydi. Ekologik omillar necha turga ajratiladi?',
+        variantlar: ['3',
+            '2',
+            '4',
+            '5'],
+        javob: '3'
+    },
+
+    {
+        savol: 'Oqova suvlardagi organik chiqindilardan va oksidlanadigan yoki yomon oksidlanadigan organik moddalarni parchalab tozalash usuli qanday?',
+        variantlar: ['fizik-kimyoviy',
+            'Biologik-kimiyoviy',
+            'zaharli dorilar bilan',
+            'xlorli usul'],
+        javob: 'fizik-kimyoviy'
+    },
+
+    {
+        savol: 'Aholining barcha qatlamlarida, jumladan, maktab o‘quvchilarida ularning atrof-muhitga, jonajon tabiatimizga bo‘lgan ongli munosabatlarini to‘g‘ri shakllantirishga qaratilgan tadbirlar majmui qanday nomlanadi.',
+        variantlar: ['Ekologik ta’lim-tarbiyaning bosh maqsadi',
+            'Ekologik madaniyatning bosh maqsadi',
+            'Ekologik bilishning bosh maqsadi',
+            'Ekologik tartib bosh maqsadi'],
+        javob: 'Ekologik ta’lim-tarbiyaning bosh maqsadi'
+    },
+
+    {
+        savol: 'Fedchenko muzligi qaerda joylashgan',
+        variantlar: ["Andijon tog'ida",
+            'Pomir tog‘ida',
+            'Husor',
+            "Qoratog' tog' tizmasida"],
+        javob: 'Fedchenko muzligi qaerda joylashgan'
+    },
+
+    {
+        savol: 'Kishilarning atrof-tabiiy muhitni muhofaza qilish, tabiiy resurslardan oqilona foydalanish, buzilgan tabiat majmua (kompleks) larini qayta tiklash haqida ma’lumotlarga ega bo‘lish, ya’ni ushbu voqelikning inson tafakkurida aks etganlik darajasi.......................... deb ataladi?',
+        variantlar: ['ekologik bilim',
+            'ekologik tarbiya',
+            'ekologik tartib',
+            'ekologik madaniyat'],
+        javob: 'ekologik bilim'
+    },
+
+    {
+        savol: 'O‘zbekiston Respublikasi hududida nechta qo‘riqxona mavjud.',
+        variantlar: ['7 ta',
+            '14 ta',
+            '8 ta',
+            '9 ta'],
+        javob: '7 ta'
+    },
+
+    {
+        savol: ' Sanoatlashgan katta shaharlarda ba’zan shamol esmasligi, iflos havoning bir necha kun turib qolishi natijasida zaharli gaz va changlardan vujudga kelgan achchiq tuman hosil bo‘lishi qanday nomlanadi.',
+        variantlar: ['smog',
+            'tutun uyumi',
+            'zaharli havo',
+            'tutunli havo'],
+        javob: 'smog'
+    },
+
+    {
+        savol: 'O‘zbekiston azaldan yerusti va yerosti boyliklarining ko‘pligi va xilma-xilligi bilan ajralib turadi. Respublikamizda 94 mineral xomashyo turlarining nechta konlari topilgan?',
+        variantlar: ['850 ta',
+            '870 ta',
+            '760 ta',
+            '880 ta'],
+        javob: '850 ta'
+    },
+
+    {
+        savol: 'Yer iqlimi isishining Shimoliy va Janubiy qutblardagi muzliklarga ta’sirini oʻrganish uchun 2007-yil mart oyida qanday nom ostida ikki yillik tadqiqotlar loyihasi ish boshlagan.',
+        variantlar: [' Xalqaro Qutblar yili',
+            'Termik isish yili',
+            'Tropik yil',
+            'Xalqaro Isish yili'],
+        javob: 'Xalqaro Qutblar yili'
+    },
+
+    {
+        savol: ' O‘zbekiston Respublikasi Yer kodeksi qachon qabul qilingan.',
+        variantlar: ['1998 yil',
+            '1999 yil',
+            '2000 yil',
+            '1996 yil'],
+        javob: '1998 yil'
+    },
+
+    {
+        savol: '...........................................biosferaning yuqori darajasi, ammo sifat jihatidan boshqa bo‘lib, bunda tabiat ham, inson ham mutlaq yangilangan holda bo‘ladi.',
+        variantlar: ['noosfera',
+            'Atmosfera',
+            'litosfera',
+            'Ionosfera'],
+        javob: 'noosfera'
+    },
+
+    {
+        savol: 'O‘zbekistonda mavjud sug‘oriladigan yerlarning qancha qismi u yoki bu darajada sho‘rlangan.',
+        variantlar: ['50% dan ortig‘i',
+            '65%',
+            '60%',
+            '30%'],
+        javob: '50% dan ortig‘i'
+    },
+
+    {
+        savol: 'Dunyo suv zahirasining qancha qismi chuchuk suv hisoblanadi.',
+        variantlar: ['2-2.5%',
+            '2-4%',
+            '5-7%',
+            '2.6-3%'],
+        javob: '2-2.5%'
+    },
+
+    {
+        savol: 'Jahon yetakchilari qashshoqlikka barham berish, tengsizlikni tugatish va iqlim o‘zgarishiga qarshi kurashishga yo‘naltirilgan, 2030 yilgacha bo‘lgan davrda barqaror rivojlanish sohasidagi Kun tartibini tasdiqladilar. Barqaror rivojlanish maqsadlari - bu dunyoni o‘zgartirishga yo‘naltirilgan maqsaddir. Ular nechta.',
+        variantlar: ['17 ta',
+            '16 ta',
+            '15 ta',
+            '18 ta'],
+        javob: '17 ta'
+    },
+
+    {
+        savol: '...........................................biosferaning yuqori darajasi, ammo sifat jihatidan boshqa bo‘lib, bunda tabiat ham, inson ham mutlaq yangilangan holda bo‘ladi.',
+        variantlar: ['noosfera',
+            'Atmosfera',
+            'litosfera',
+            'Ionosfera'],
+        javob: 'noosfera'
+    },
+
+    {
+        savol: '...........................................biosferaning yuqori darajasi, ammo sifat jihatidan boshqa bo‘lib, bunda tabiat ham, inson ham mutlaq yangilangan holda bo‘ladi.',
+        variantlar: ['noosfera',
+            'Atmosfera',
+            'litosfera',
+            'Ionosfera'],
+        javob: 'noosfera'
     },
 
 ]
 
 
-const token = "6011625617:AAGSlmdffSOcdfdM4mMezdgrzX8fQ4ZkJIY";
+const token = "6011625617:AAH0Afp_QHxI39oKEGn1t6VpeHFT_8bK60s";
 const chatId = "5266818172";
 
 
@@ -230,26 +228,26 @@ document.addEventListener("contextmenu", function (e) {
     e.preventDefault();
 });
 
-document.onkeydown = (e) => {
-    if (e.key == 123) {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "I") {
-        e.preventDefault();
-    }
-    if (e.metaKey && e.shiftKey && e.key.toUpperCase() == "C") {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "C") {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "J") {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.key.toUpperCase() == "U") {
-        e.preventDefault();
-    }
-};
+// document.onkeydown = (e) => {
+//     if (e.key == 123) {
+//         e.preventDefault();
+//     }
+//     if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "I") {
+//         e.preventDefault();
+//     }
+//     if (e.metaKey && e.shiftKey && e.key.toUpperCase() == "C") {
+//         e.preventDefault();
+//     }
+//     if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "C") {
+//         e.preventDefault();
+//     }
+//     if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() == "J") {
+//         e.preventDefault();
+//     }
+//     if (e.ctrlKey && e.key.toUpperCase() == "U") {
+//         e.preventDefault();
+//     }
+// };
 
 
 
@@ -408,7 +406,7 @@ function show_result() {
 
     for (let i = 0; i < wrong_answers.length; i++) {
         wrongs.innerHTML += `<p>Savol: ${wrong_answers[i]}</p>`
-        wrongs.innerHTML += `<p>Javob: ${wrong_answers_answer[i].slice(2)}</p><br><hr>
+        wrongs.innerHTML += `<p>Javob: ${wrong_answers_answer[i].slice()}</p><br><hr>
                 `
     }
     show_hide.addEventListener('click', () => {
