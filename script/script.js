@@ -322,7 +322,7 @@ function testing() {
 
     function next_test() {
         count++
-        if (count >= savollar.length) {
+        if (count >= 20) {
             test_box.style.display = 'none';
             show_result()
             let fetchBreak = true;
@@ -429,7 +429,7 @@ result.style.display = 'none'
 function show_result() {
     result.style.display = 'block'
     u_name.textContent = 'Name: ' + userName.value;
-    result_span.textContent = `Natija: siz ${correct_answers}/${savollar.length} natijaga erishdingiz`
+    result_span.textContent = `Natija: siz ${correct_answers}/20 natijaga erishdingiz`
 
     for (let i = 0; i < wrong_answers.length; i++) {
         wrongs.innerHTML += `<p>Savol: ${wrong_answers[i]}</p>`
