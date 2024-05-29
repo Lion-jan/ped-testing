@@ -354,8 +354,7 @@ function testing() {
             variant3.textContent = `C) ${newMassiv.at(count).variantlar.at(random_var - 2)}`
             variant4.textContent = `D) ${newMassiv.at(count).variantlar.at(random_var - 3)}`
             variants.forEach((element) => {
-                element.classList.remove('correct')
-                element.classList.remove('wrong')
+                element.style.backgroundColor = '#7fb8fd'
             })
         }
     }
@@ -368,19 +367,18 @@ function testing() {
         el.addEventListener('click', (event) => {
 
             if (el.textContent.slice(3) == newMassiv[count].javob) {
-                console.log('true')
-                el.classList.add('correct')
-                correct_answers++;
+                // el.classList.add('correct')
+                el.style.backgroundColor = 'green'
+                console.log(el.classList)
             }
 
 
             else {
-                console.log('false')
-                el.classList.add('wrong')
+                console.log(el.classList)
+                // el.classList.add('wrong')
+                el.style.backgroundColor = 'red'
                 wrong_answers.push(newMassiv[count].savol)
                 wrong_answers_answer.push(newMassiv[count].javob)
-                console.log(wrong_answers)
-                console.log(wrong_answers_answer)
             }
 
             // console.log(el.textContent.slice(3))
