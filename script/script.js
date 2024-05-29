@@ -547,6 +547,7 @@ function testing() {
                 // el.classList.add('correct')
                 el.style.backgroundColor = 'green'
                 console.log(el.classList)
+                correct_answers+=1
             }
 
 
