@@ -417,6 +417,71 @@ let savollar = [
         javob: "1994-yilda"
     },
 
+    {
+        savol: "Global isishga qarshi turish uchun yer atmosferasiga issiqhona gazlari chiqindilarini kamaytirish uchun tuzilgan halqaro shartnoma qanday nomlanadi?",
+        variantlar: ["Kioto protokoli",
+            "Butunjahon isishga qarshi kurashish",
+            "Antitermo",
+            "MTH"],
+        javob: "Kioto protokoli"
+    },
+
+    {
+        savol: "Tabiatda mavjud bo'lgan , insonlar tomonidan yaratilmaydigan, insonning hayoti, xo'jalik faoliyati uchun zarur bo'lgan barcha tabiy jismlar , sharoitlar va jarayonlar qanday nomlanadi?",
+        variantlar: ["Tabiy resurs",
+            "Moddiy resurs",
+            "Ma'naviy resurs",
+            "Modda"],
+        javob: "Tabiy resurs"
+    },
+
+    {
+        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
+        variantlar: ["Toshkent viloyati",
+            "Samarqand viloyati",
+            "Surxondaryo viloyati",
+            "Namangan viloyati"],
+        javob: "Toshkent viloyati"
+    },
+
+    {
+        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
+        variantlar: ["Toshkent viloyati",
+            "Samarqand viloyati",
+            "Surxondaryo viloyati",
+            "Namangan viloyati"],
+        javob: "Toshkent viloyati"
+    },
+
+    {
+        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
+        variantlar: ["Toshkent viloyati",
+            "Samarqand viloyati",
+            "Surxondaryo viloyati",
+            "Namangan viloyati"],
+        javob: "Toshkent viloyati"
+    },
+
+    {
+        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
+        variantlar: ["Toshkent viloyati",
+            "Samarqand viloyati",
+            "Surxondaryo viloyati",
+            "Namangan viloyati"],
+        javob: "Toshkent viloyati"
+    },
+
+    {
+        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
+        variantlar: ["Toshkent viloyati",
+            "Samarqand viloyati",
+            "Surxondaryo viloyati",
+            "Namangan viloyati"],
+        javob: "Toshkent viloyati"
+    },
+
+
+
 
    
 
