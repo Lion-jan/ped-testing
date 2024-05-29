@@ -199,12 +199,30 @@ let savollar = [
     },
 
     {
-        savol: '...........................................biosferaning yuqori darajasi, ammo sifat jihatidan boshqa bo‘lib, bunda tabiat ham, inson ham mutlaq yangilangan holda bo‘ladi.',
-        variantlar: ['noosfera',
-            'Atmosfera',
-            'litosfera',
-            'Ionosfera'],
-        javob: 'noosfera'
+        savol: 'Hosildorlik kamayishi, fotosintetik faoliyat va o‘simlik qoplamining landshaftini muvozanatlab turadigan funksiyasini pasayishi qanday izohlanadi.',
+        variantlar: ['degradatsiya',
+            'delegatsiya',
+            'plantatsiya',
+            'initializatsiya'],
+        javob: 'degradatsiya'
+    },
+
+    {
+        savol: 'O‘zbekiston Respublikasi “Qizil kitobi”ning so‘ngi nashri nechanchi yilda nashr ettirilgan.',
+        variantlar: ['2019 yilda',
+            '2018 yilda',
+            '2016 yilda',
+            '2020 yilda'],
+        javob: '2019 yilda'
+    },
+
+    {
+        savol: ' O‘rmonlardan oqilona foydalanish, cho‘llashishga qarshi kurashish, yer tanazzuli holatlariga chek qo‘yish va yer unumdorligini qayta tiklash hamda biologik xilma-xillikning yo‘qolib ketish xavfini bartaraf etish. Barqaror rivojlanish maqsadlarining qaysi maqsadining mohiyati.',
+        variantlar: ['15-maqsad. Quruqlikdagi ekotizimlarni asrash',
+            '1-maqsad. Ochlikka qarshi kurashish',
+            '13-maqsad. Qashshoqlikning oldini olish',
+            '10-maqsad. Sivilizatsiyani rivojlantirish'],
+        javob: '15-maqsad. Quruqlikdagi ekotizimlarni asrash'
     },
 
     {
@@ -214,6 +232,15 @@ let savollar = [
             'litosfera',
             'Ionosfera'],
         javob: 'noosfera'
+    },
+
+    {
+        savol: 'Birinchi shamol stansiyasi Buyuk Britaniyada professor Jeyms Blit tomonidan nechanchi yilda qurilgan?',
+        variantlar: ['1887-yilda',
+            '1886-yilda',
+            '1890-yilda',
+            '1883-yilda'],
+        javob: '1887-yilda'
     },
 
 ]
