@@ -463,23 +463,15 @@ let savollar = [
     },
 
     {
-        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
-        variantlar: ["Toshkent viloyati",
-            "Samarqand viloyati",
-            "Surxondaryo viloyati",
-            "Namangan viloyati"],
-        javob: "Toshkent viloyati"
+        savol: "Tuproqning sho'rlanishi qaysi davlatlarda ko'p uchaydi ",
+        variantlar: ["Misr,Iroq,Tojikiston,O'zbekiston",
+        "Misr,Iroq,Tojikiston,Rossiya",
+            "Afrika,Eron,Tojikiston,O'zbekiston",
+            "Misr,Turkiya,Tojikiston"],
+        javob: "Misr,Iroq,Tojikiston,O'zbekiston"
     },
 
-    {
-        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
-        variantlar: ["Toshkent viloyati",
-            "Samarqand viloyati",
-            "Surxondaryo viloyati",
-            "Namangan viloyati"],
-        javob: "Toshkent viloyati"
-    },
-
+   
 
 
 
