@@ -35,7 +35,7 @@ let savollar = [
         javob: 'biotik'
     },
 
-    {
+    {https://github.com/Lion-jan/ped-testing.git
         savol: 'Suv muhitida gidrobiontlarning suvni qarshiligini kesib yurishga mos tana tuzilishi, plankton organizmlarning suvda osilgan holda yashashi, o‘simliklar dunyosida cho‘l sharoitida minimum suv sarflashga moslashish sifatida barglarning reduktsiyalanishi yoki butunlay bo‘lmasligi moslanishning qaysi turiga misol bo‘ladi?',
         variantlar: ['morfologik', 
             'gidrolog',
@@ -398,15 +398,6 @@ let savollar = [
     },
 
 
-    {
-        savol: "Urung'och tabiat yodgorligi qayerda joylashgan?",
-        variantlar: ["Toshkent viloyati",
-            "Samarqand viloyati",
-            "Surxondaryo viloyati",
-            "Namangan viloyati"],
-        javob: "Toshkent viloyati"
-    },
-
 
     {
         savol: "Butunjahon cho'llanish va qurg'oqchilikka qarshi kurashish kuni BMT Bosh assambleyasi tomonidan  qachon ta'sis etilgan ",
@@ -471,7 +462,69 @@ let savollar = [
         javob: "Misr,Iroq,Tojikiston,O'zbekiston"
     },
 
-   
+    {
+        savol: "Havoda ozonning ko'payib ketishi inson organizmiga zarar qiladi , uning miqdori 0.02-0.03mg/l ga yetganda insonning nafas yo'llari yallig'lanib ........ kasalligini keltirib chiqaradi?",
+        variantlar: ["Bo'qoq",
+            "Saraton",
+            "Sil",
+            "Astma"],
+        javob: "Bo'qoq"
+    }, 
+    
+    
+        {
+        savol: "Muhofaza etiladigan tabbiy hududlar toifalarga ajratilgan. Buyurtma qo'riqxonalar qaysi turga kiradi?",
+        variantlar: ["5",
+            "1",
+            "3",
+            "4"],
+        javob: "5"
+    },
+    
+    {
+        savol: "Yangi tahrirdagi O'zbekiston Respublikasining O'simliklar dunyosini muhofaza qilish va undan oqilona foydalanish to'g'risidagi qonuni qachon qbul qilingan?",
+        variantlar: ["2016-yil 21-sentyabr",
+            "2017-yil 22-sentyabr",
+            "2003-yil 21-may",
+            "2015-yil 21-noyabr"],
+        javob: "2016-yil 21-sentyabr"
+    },
+
+    {
+        savol: "Muhofaza etiladigan tabbiy hududlar toifalarga ajratilgan. Davlat qo'riqxonalari qaysi turga kiradi va hozirda O'zbekiston respublikasida nechta qo'riqxona mavjud?",
+        variantlar: ["1-toifa , 7ta",
+            "1-toifa ,8ta",
+            "4-toifa , 6ta",
+            "2-toifa , 9ta"],
+        javob: "1-toifa , 7ta"
+    },
+    
+    
+    
+    
+    {
+        savol: "Yerning ortiqcha namlangan qismi va hali chiqib ulgurmagan organik moddalar to'plami joylashgan qismi qanday nomlanadi?",
+        variantlar: ["Cho'l",
+            "adir",
+            "ko'l",
+            "botqoq"],
+        javob: "botqoq"
+    },
+
+
+    {
+        savol: "Gadnauz qo'ng'ir ko'mir konining zaxirasi 30-35 mnl tonna deb bashorat qilinmoqda. Ushbu ko'mir koni Respublikamizning qaysi hududida joylashgan?",
+        variantlar: ["Farg'ona viloyati",
+            "Samarqand viloyati",
+            "Surxondaryo viloyati",
+            "Namangan viloyati"],
+        javob: "Farg'ona viloyati"
+    },
+
+    
+    
+    
+ 
 
 
 
