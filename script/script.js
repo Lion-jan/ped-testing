@@ -35,7 +35,7 @@ let savollar = [
         javob: 'biotik'
     },
 
-    {https://github.com/Lion-jan/ped-testing.git
+    {
         savol: 'Suv muhitida gidrobiontlarning suvni qarshiligini kesib yurishga mos tana tuzilishi, plankton organizmlarning suvda osilgan holda yashashi, o‘simliklar dunyosida cho‘l sharoitida minimum suv sarflashga moslashish sifatida barglarning reduktsiyalanishi yoki butunlay bo‘lmasligi moslanishning qaysi turiga misol bo‘ladi?',
         variantlar: ['morfologik', 
             'gidrolog',
